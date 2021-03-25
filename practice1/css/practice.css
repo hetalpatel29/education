@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.container h1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    color: darkcyan;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    background-color: lightcoral;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.owt4 {
+    position: static;
+    width: 26.666%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+.Education {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.courseimage {
+    height: 300px;
+    width: 100%;
+}
+
+.coursefeetag {
+    position: relative;
+    height: 30px;
+    width: 50px;
+    background-color: blue;
+    box-sizing: border-box;
+    text-align: center;
+    float: right;
+    bottom: 270px;
+    font-size: 20px;
+    font-weight: 20px;
+    color: thistle;
+}
+
+.coursefeetag:hover {
+    background-color: crimson;
+    transition: 1s;
+    text-align: center;
+}
+
+.icon {
+    position: relative;
+    width: 100%;
+    bottom: 50px;
+}
+
+.heart {
+    position: relative;
+    top: 17px;
+    text-align: left;
+    color: white;
+}
+
+.heart:hover {
+    transition: 1s;
+    color: red;
+}
+
+.i {
+    font-size: 17px;
+}
+
+.clock {
+    position: relative;
+    left: 50px;
+    color: white;
+    text-align: right;
+}
+
+.title {
+    width: 100%;
+    background-color: white;
+    text-align: right;
+    color: grey;
+    position: relative;
+    bottom: 35px;
+}
+
+.footer {
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+.enroll {
+    position: relative;
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+
+.footer button {
+    height: 40px;
+    width: 80px;
+    background-color: skyblue;
+    text-align: center;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    font-size: 19px;
+    position: relative;
+}
+
+.footer button:hover {
+    height: 42px;
+    width: 82px;
+    color: white;
+    transition: 1s;
+    background: darkcyan;
+}
+
+.student {
+    width: 50%;
+    float: right;
+}
+
+.studenticon {
+    color: black;
+    text-align: right;
+    padding-top: 10px;
+    position: relative;
+    right: 10px;
+}
